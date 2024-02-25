@@ -1,0 +1,17 @@
+# Conteúdo a ser excluido do arquivo docker e sempre que for executados os comandos
+
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
